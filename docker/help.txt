@@ -1,0 +1,8 @@
+#kafka drop
+localhost:19000/
+
+#kafka docker start
+docker-compose -f kafka-docker-compose.yml up -d
+
+#spring-boot start
+mvn spring-boot:run
