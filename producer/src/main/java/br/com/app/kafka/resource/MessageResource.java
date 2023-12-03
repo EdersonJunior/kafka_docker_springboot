@@ -1,6 +1,6 @@
-package br.com.app.resource;
+package br.com.app.kafka.resource;
 
-import br.com.app.service.MessageService;
+import br.com.app.kafka.service.MessageService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -17,4 +17,5 @@ public class MessageResource {
         messageService.sendMessage(mensagem);
         return ResponseEntity.ok().body("Mensagem enviada com sucesso: " + mensagem);
     }
+
 }

@@ -1,4 +1,4 @@
-package br.com.app;
+package br.com.app.kafka;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
